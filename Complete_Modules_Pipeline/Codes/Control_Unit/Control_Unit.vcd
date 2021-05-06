@@ -1,0 +1,82 @@
+$date
+	Wed Apr 07 00:19:01 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Control_Unit_tb $end
+$var wire 1 ! RegWrite $end
+$var wire 1 " MemWrite $end
+$var wire 1 # MemToReg $end
+$var wire 1 $ MemRead $end
+$var wire 1 % Branch $end
+$var wire 1 & ALUSrc $end
+$var wire 2 ' ALUOp [1:0] $end
+$var reg 7 ( instruction6_0 [6:0] $end
+$scope module CUtb $end
+$var wire 1 & ALUSrc $end
+$var wire 1 % Branch $end
+$var wire 1 $ MemRead $end
+$var wire 1 # MemToReg $end
+$var wire 1 " MemWrite $end
+$var wire 1 ! RegWrite $end
+$var wire 7 ) instruction6_0 [6:0] $end
+$var wire 2 * ALUOp [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+bx )
+bx (
+bx '
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+0&
+1!
+1"
+1#
+0$
+0%
+b10 '
+b10 *
+b110011 (
+b110011 )
+#10
+1&
+b10011 (
+b10011 )
+#15
+0"
+1$
+0#
+b0 '
+b0 *
+b11 (
+b11 )
+#20
+0!
+0$
+1"
+b100011 (
+b100011 )
+#25
+0&
+0"
+1#
+1%
+b1 '
+b1 *
+b1100011 (
+b1100011 )
+#35
